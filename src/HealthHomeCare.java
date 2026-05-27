@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class HealthHomeCare {
-    static void main(String[] args) {
+   public static void main(String[] args) {
 
         FilaPaciente filaMonitora = new FilaPaciente();
         FilaPaciente filaAtencao = new FilaPaciente();
@@ -14,6 +14,7 @@ public class HealthHomeCare {
             System.out.println("HealthHomeCare Systems ");
             System.out.println("1. Inserir paciente na fila de monitoramento");
             System.out.println("2. Percorrer fila de monitoramento");
+            System.out.println("3. Verificar fila de atenção");
             System.out.println("0. Sair (encerrar)");
             System.out.println("Escolha uma opção: ");
 
